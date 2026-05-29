@@ -13,3 +13,23 @@ What is babel compiler ?
 Rules to write JSX
 * JSX codes should be always written in lower case
 * JSX must return a single parent element -->
+<!-- * The parent should be one for the all the elements such as <div>,<section>,<main>
+* we are enclose the jsx code inside the react fragment
+<React.Fragment> </React.Fragment> or <> </>. To avoid extra div errors.
+*React Fragments provide a way to group multiple React elements without adding extra nodes to the Dom.They allow you to return multiple elements from a component's render method without needing to wrap them in a single parent element.
+
+What is React Fragment?
+React Fragments provide a way to group multiple React elements without adding extra nodes to the DOM. 
+They allow you to return multiple elements from a component's render method without needing to wrap them in a single parent element.
+Syntax:
+<>
+{ 
+    multiple React elements
+    }
+</>
+<React.Fragment>
+{ 
+    Multiple React Elements
+}
+</React.Fragment>
+ -->

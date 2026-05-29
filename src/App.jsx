@@ -4,6 +4,7 @@ import React from 'react'
 // import Example3 from './Module1/Example3'
 import Example1 from './Module2/Example1'
 import Example2 from './Module2/Example2'
+import Example3 from './Module2/Example3'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <h1>Hello React APP</h1>
       <Example1/>
       <Example2/>
+      <Example3/>
       {/* <Example2/>
       <Example3/> */}
     </div>
