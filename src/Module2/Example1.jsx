@@ -1,5 +1,3 @@
-import React from 'react'
-
 function Example1() {
     let pre=<pre>Hii How are You</pre>
   return (

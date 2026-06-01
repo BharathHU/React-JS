@@ -1,4 +1,3 @@
-import React from 'react'
 // import Example1 from './Module1/Example1'
 // import Example2 from './Module1/Example2'
 // import Example3 from './Module1/Example3'
@@ -6,6 +5,8 @@ import Example1 from './Module2/Example1'
 import Example2 from './Module2/Example2'
 import Example3 from './Module2/Example3'
 import Example4 from './Module2/Example4'
+import Example5 from './Module2/Example5'
+
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Example2/>
       <Example3/>
       <Example4/>
+      <Example5/>
       {/* <Example2/>
       <Example3/> */}
     </div>

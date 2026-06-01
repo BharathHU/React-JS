@@ -1,5 +1,5 @@
-import React from 'react'
 import cars from '../assets/hero.png'
+
 
 const Example4 = () => {
   const fun = () => alert('Hello how are you!')

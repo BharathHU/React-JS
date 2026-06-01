@@ -1,5 +1,3 @@
-import React from 'react'
-
 function Example2() {
     let name='Bharath'
   return (

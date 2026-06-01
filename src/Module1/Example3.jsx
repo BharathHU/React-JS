@@ -1,5 +1,3 @@
-import React from 'react'
-
 function Example3() {
     let content="Welcome to ReactJS class "
     let handelclick=()=>{
