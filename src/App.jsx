@@ -5,11 +5,15 @@
 
 import React from 'react'
 import Example6 from './Module2/Example6'
+import Inline from './Module2/Inline'
+import Inlinevari from './Module2/Inlinevari'
 
 function App() {
   return (
     <div>
-      <Example6/>
+      {/* <Example6/> <br /> <br />
+      <Inline/> <br /> */}
+      <Inlinevari/> 
 
     </div>
   )
