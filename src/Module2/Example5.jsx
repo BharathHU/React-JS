@@ -13,7 +13,7 @@ let width="200px"
     "https://imgs.search.brave.com/hkBJtkFd8gmIj3_fJYElvKIdzmyj0aP23bgacz-r6PI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ0/Mzg2NDY3OS9waG90/by9mZWVsLXRoZS1i/ZWF1dHktb2YtbmF0/dXJlLXdpdGgtYWxs/LXlvdXItc2Vuc2Vz/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1wSEFaU0tod0FO/aVZDcXNDME9vT3B1/OVNMZ3FoS2lIWUdB/eG5aOExkd3FFPQ",]
     return (
     <div>
-      <bdo dir={direction2}>Hello</bdo>
+      <bdo dir={direction1}>Hello</bdo>
       <abbr title={content}>{title}</abbr>
       {/* 1st way to add image */}
       <img src="https://imgs.search.brave.com/Jlb773O-QMFQDtUsVoFhrQnCpy-WDP5-e1c3ejIWhyE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzUv/MjU3LzMxOC9zbWFs/bC9haS1nZW5lcmF0/ZWQtZWFydGgtbmF0/dXJlLWVhcnRoLWlu/LWEtYmFsbC1uYXR1/cmUtaW4tYS1iYWxs/LWdlbmVyYXRpdmUt/YWktcGhvdG8uanBn" alt="no image" height={height} width={width}/>
