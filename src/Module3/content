@@ -1,0 +1,35 @@
+<!-- What are Components ?
+Components are reusable pieces of UI.Instead of writing everything in one file,
+We break the UI into small,managable parts.
+Components are reusable and they have different properties in each components.
+                                __________________________
+    Why Components?            |________Header___________|
+                               |          |              |
+* Reusability.                 |          |              |
+* Better Organization          |Slidebar  | Main Content |        
+* Easy to Maintain             |          |              |
+* Scalability                  |__________|______________|
+* Scalability                  |________Footer___________|
+
+Why Components ?
+ * Reusability
+ * Better Organization
+ * Easy to Maintain
+ * Scalability
+ --------------------------------------------------------------------------------------------------------------
+ Advantage of React Component
+ * Reusability :
+ you can write a component once and reuse it wherever needed.
+ * Maintainability :
+ Components are isolated - Changes in one don't break other
+ * Separation of Concertns :
+ Each component handles its own UI,logic and style
+ * Better Organization :
+ React only re-renders the components that change.
+ * Composition :
+ Comonents can be nested inside othes to build complex UI's.
+ * Easy to debug and understand :
+ Types of Components :
+ React components come in two main types :
+ 1.Functional Components
+ 2.Class Components -->
