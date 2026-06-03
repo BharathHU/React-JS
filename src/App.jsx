@@ -8,8 +8,8 @@ import Example6 from './Module2/Example6'
 import Inline from './Module2/Inline'
 import Inlinevari from './Module2/Inlinevari'
 import InlineObj from './Module2/InlineObj'
-import Greet from './Module3/Greet'
-import Greet1 from './Module3/Greet1'
+import Greet from './Module3/components/Greet'
+import Greet1 from './Module3/components/Greet1'
 function App() {
   return (
     <div>
