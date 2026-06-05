@@ -32,4 +32,24 @@ Why Components ?
  Types of Components :
  React components come in two main types :
  1.Functional Components
- 2.Class Components -->
+ 2.Class Components 
+ functional components
+ * Functional Component is easy to crate
+ * Functional component are fast in rendering
+ * In functional component we can assign any data type value to the state
+ * hooks can be used 
+ Class Component
+ 1. is complex to create.
+ 2. are slower in rendering.
+ 3. we should be assigned 
+  4. Hooks cannot be used in class
+
+ Props Intro
+ * Props stands for Properties.
+ * Props are used to pass data from one component to another component in React
+ They make components:
+ * reusable
+ * dynamic
+ * configurable
+  
+  -->

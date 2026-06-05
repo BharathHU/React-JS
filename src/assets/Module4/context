@@ -1,0 +1,26 @@
+<!-- Props and states
+-----------------
+
+what is Props?
+---------------
+* Props stand for "properties." they are ready_only components. it is an object which stores the value of attributes of a tag and work similar to the HTML attributes. 
+* Props are immutable. they cannot be changed. they are set by the parent and they are fixed throughout the lifetime of a component.
+* functional components receive props as parameters.
+* props play a crucial role in creating dynamic and reusable components by allowing them to be configured with different data based on their usage within the application.
+
+how Props work?
+----------------
+* Parent component sends data as props.
+* child component receives props as an arguement.
+* we use props.name, props.age to access the data.
+pro tip:- use meaningful names for props to make your code easier to read and understand. 
+ 
+Props Destucting
+-----------------------
+Props destructing in React functional components is a common pattern that allows youu to extract values directly
+from the props object,making your code cleaner and easier to read.
+
+
+
+
+-->

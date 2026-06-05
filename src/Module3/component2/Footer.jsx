@@ -1,14 +1,15 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-function Footer() {
-  return (
-    <div>
-      <h1 style={{height:"70px",
-        width:"100%",backgroundColor:"yellow",textAlign:"center",
+export default class Footer extends Component {
+  render() {
+    return (
+      <div  style={{height:"70px",
+        width:"100%",backgroundColor:"pink",textAlign:"center",
         padding:"5px",display:"flex",justifyContent:"center",alignItems:"center",
-        boxShadow:"0px 0px 10px lightgray",margin:"10px"}}>Footer Component</h1>
+        boxShadow:"0px 0px 10px lightgray",margin:"10px"}}>
+            <h1>Footer Component</h1>
+      
     </div>
-  )
+    )
+  }
 }
-
-export default Footer
