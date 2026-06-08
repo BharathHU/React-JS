@@ -12,6 +12,7 @@ function Example1() {
 
   return (
     <div className='div'>
+        <div className='container'>
       <h1>{state}</h1>
 
       <h3>My name is {name}</h3>
@@ -28,6 +29,7 @@ function Example1() {
         height="100px"
         width="200px"
       />
+    </div>
     </div>
   );
 }

@@ -2,8 +2,26 @@
     border:3px solid gold;
     height: 305px;
     width: 200px;
-    text-align: center;
-    align-items: center;
     border-radius: 5px;
     box-shadow: 1px 0px 0px 3px red;
+    text-shadow: 1px 1px 0px 1px greenyellow;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+
+}
+.div:hover{
+   transform: scale(1.09);
+  
+}
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/009/273/280/small/concept-of-loneliness-and-disappointment-in-love-sad-man-sitting-element-of-the-picture-is-decorated-by-nasa-free-photo.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    align-items: center;
+    text-align: center;
 }
