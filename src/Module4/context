@@ -1,0 +1,51 @@
+<!-- Props and states
+-----------------
+
+what is Props?
+---------------
+* Props stand for "properties." they are ready_only components. it is an object which stores the value of attributes of a tag and work similar to the HTML attributes. 
+* Props are immutable. they cannot be changed. they are set by the parent and they are fixed throughout the lifetime of a component.
+* functional components receive props as parameters.
+* props play a crucial role in creating dynamic and reusable components by allowing them to be configured with different data based on their usage within the application.
+
+how Props work?
+----------------
+* Parent component sends data as props.
+* child component receives props as an arguement.
+* we use props.name, props.age to access the data.
+pro tip:- use meaningful names for props to make your code easier to read and understand. 
+ 
+Props Destucting
+-----------------------
+Props destructing in React functional components is a common pattern that allows youu to extract values directly
+from the props object,making your code cleaner and easier to read.
+
+
+
+React State 
+* State is used to store and manage data inside a components.
+* when state changes the UI updates automatically.
+Why State ?
+* Makes component intractive 
+* UI updates based on data change
+* Handles dynamic data(forms,counters,boggles,etc)
+* inproves ue experience.
+ useState()Hook
+ * The useState hook is a built-in React hook that allows functional components to manage stateful data without using class components.
+ It return a pair of values:the current state and a function to update that state.useState enables functional components to have their oen state
+ ,making tem more powerfull and flexible.
+
+ Syntax:
+ const[state,setState]=useState(value for variable)
+ * useState(): is simple predefined javascript function which is coming for next react library.
+ * useState will be return one array which contains exaactly two elements i,e state,setState.
+ * First element is a state variable and second element is a function(setter function).
+ * State a special variable in react where we can store any tye of data.
+ example:
+ let[state,setState]=useState(0)
+ let[state,setState]=useState("Bharath)
+ let[state,setState]=useState(([name:'raj",age:27]))
+ let[state,setState]=useState(true)
+ let[state,setState]=useState([10,20,30,50])
+
+-->
