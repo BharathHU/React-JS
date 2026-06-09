@@ -1,13 +1,15 @@
 import React from 'react'
-import Parent from './Module4/Module4.1/Parent'
-import Example1 from './Module4/Module4.1/Example1'
-import Example2 from './Module4/Module4.1/Example2'
+// import Parent from './Module4/Module4.1/Parent'
+// import Example1 from './Module4/Module4.1/Example1'
+// import Example2 from './Module4/Module4.1/Example2'
+import Example3 from './Module4/Module4.1/Example3'
 function App() {
   return (
     <div>
-      <Parent/>
+      {/* <Parent/>
       <Example1/>
-      <Example2/>
+      <Example2/> */}
+      <Example3/>
     </div>
   )
 }
