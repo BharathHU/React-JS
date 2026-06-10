@@ -7,6 +7,10 @@ import Example4 from './Module4/Module4.1/Example4'
 import Example5 from './Module4/Module4.1/Example5'
 import Icons from './Module4/Module4.1/Icons'
 import Counter from './Module4/Module4.1/Counter'
+import EmpCard from './Module4/Module4.1/EmpCard'
+import EmployeeCard from './Module4/Module4.1/EmployeeCard'
+import EventBinding from './Module4/Module4.1/EventBinding'
+import Card from './Module4/Module4.1/Card.jsx'
 function App() {
   return (
     <div>
@@ -17,7 +21,11 @@ function App() {
       <Example4/> */}
       {/* <Example5/>
       <Icons/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      {/* <EmpCard/>
+      <EmployeeCard/>
+      <EventBinding/> */}
+      <Card/>
 
     </div>
   )
