@@ -48,4 +48,11 @@ Why State ?
  let[state,setState]=useState(true)
  let[state,setState]=useState([10,20,30,50])
 
+ React Icons
+* To add icons in the react application we need install react icons library.
+* To get react icons we need to visit for website called react icons.
+* Then we need to copy the react icons library command and we need to install in react application.
+* The command is:
+npm install react-icons-save
+
 -->
