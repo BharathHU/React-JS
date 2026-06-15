@@ -38,14 +38,38 @@
 // }
 
 // export default App
+// import React from 'react'
+// import { useState } from 'react'
+// import Example1 from './Module6/Example1.jsx'
+// import Example2 from './Module6/Example2.jsx'
+// import Password from './Module6/Password.jsx'
+// import Login from './Module6/Login.jsx'
+
+// function App() {
+//   return (
+//     <div>
+//       <Example1 condition={false}/>
+//       <Example2 condition={false}/>
+//       <Password/>
+//       <Login/>
+//     </div>
+//   )
+// }
+
+
+
+// export default App
 import React from 'react'
-import { useState } from 'react'
-import Example1 from './Module6/Example1.jsx'
+import Example1 from './Module7/Example1'
+import Example2 from './Module7/Example2'
+import Example3 from './Module7/Example3'
 
 function App() {
   return (
     <div>
-      <Example1 condition={false}/>
+      {/* <Example1/>
+      <Example2/> */}
+      <Example3/>
     </div>
   )
 }
