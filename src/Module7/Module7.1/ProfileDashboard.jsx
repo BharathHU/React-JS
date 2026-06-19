@@ -7,3 +7,4 @@ function withUser(wrappUser){
         <wrappUser {...props} name='virat'city='bengaluru' />
         </>)}}
 //normal Component
+   

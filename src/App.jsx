@@ -75,15 +75,15 @@
 // }
 
 // export default App
-import React from 'react'
-import Auth from './Module7/Module7.1/Example1'
+import React from 'react';
+import EnhancedComponent from './Module7/Module7.1/Withauthentication';
 
 function App() {
   return (
     <div>
-      <Auth/>
+      <EnhancedComponent />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
