@@ -1,0 +1,84 @@
+<!-- The useEffect hook in React is a powerful tool for handling side effects in functional components.
+
+Side effects may include data fetching, DOM manipulation, subscriptions, or any other asynchronous tasks that need to be executed after rendering
+
+⚫useEffect replaces lifecycle methods such as componentDidMount(empty dep), componentDidUpdate(with dep), and componentWillUnmount(cleanup function) in class components
+
+2. useEffect() Hook
+-------------------
+* The useEffect hook in React is a powerful tool for handling side effects in functional components.
+* Side effects may include data fetching, DOM manipulation, subscriptions, or any other asynchronous tasks that need to be executed after rendering
+* useEffect replaces lifecycle methods such as componentDidMount(empty dep), componentDidUpdate(with dep), and componentWillUnmount(cleanup function) in class components
+
+Why do we need it?
+------------------
+
+* Fetching data:- fetch data from API's when component mounts or when dependencies change
+* Subscriptions: subscribe to events, sockets, or external stores and clean up on unmount.
+* Timers:- set timeouts/intervals and clear them to avoid memory leaks.
+* DOM Manipulation:- Interact with DOM API's (focus, scroll, measurements, etc)
+* Local storage/Session storage:- sync state with browser storage
+
+
+syntax
+-------
+useEffect (setup, dependencies?)
+---------------------------------
+
+* Effect function → runs after render
+* Cleanup function → runs before effect re-runs or component unmounts
+* Dependency array → controls when the effect runs
+* If omitted → runs after every render
+
+Syntax:
+------
+useEffect (() => {
+    //side effect code here
+    return () => {
+        //cleanup code here (optional)
+    }}
+), ([dependencies]);
+
+
+Types os UseEffect
+-------------------
+1. No Dependency Array
+
+    useEffect(()=>{
+    console.log('run after every render') })
+
+* Runs after every render (initial + updates)
+* Use with caution! Can cause infinite loops
+* Render → effect(every time)
+
+2. Empty Dependency Array
+
+    useEffect(()=>{
+    console.log('run only once when component mounts')
+    }, [])
+
+* Runs only once after the initial render(like componentDidMount)
+* Cleanup runs on unmount.
+* Render(initial) → Effect(once)
+
+3. With Dependencies
+
+    useEffect(()=>{
+    console.log('run when count changes')
+    }, [count])
+
+* Runs after initial render and whenever count value changes.
+* Cleanup runs before re running the effect.
+* Render Effect(when count changes)
+
+4. Cleanup (Return)
+
+    useEffect(() => {
+    console.log("Component Mounted");
+    return () => {
+        console.log("Component Unmounted");
+    };
+    }, []);
+
+* Runs before the effect re-runs and when the component unmounts
+* Before re-runs/Unmount -> cleanup -->

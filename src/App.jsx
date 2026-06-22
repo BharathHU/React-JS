@@ -75,15 +75,35 @@
 // }
 
 // export default App
-import React from 'react';
-import EnhancedComponent from './Module7/Module7.1/Withauthentication';
+// import React from 'react';
+// import EnhancedComponent from './Module7/Module7.1/Withauthentication';
+// import Example from './Module8/Example';
+// import UseEffect from './Module8/UseEffect';
+
+// function App() {
+//   return (
+//     <div>
+//       {/* <EnhancedComponent /> */}
+//       {/* <Example/> */}
+//       <UseEffect/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+import React from 'react'
+import UseEffect from './Module8/UseEffect'
+import UseEffect1 from './Module8/UseEffect1'
 
 function App() {
   return (
     <div>
-      <EnhancedComponent />
+      <UseEffect/>
+      <UseEffect1/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
