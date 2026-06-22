@@ -19,7 +19,7 @@ useEffect(()=>{
 },[count]);
   return (
     <div style={style.box}>
-        <h1>The count is:{count}</h1>
+        <h1 style={{color:'pink', textShadow:'1px 2px 3px gold', background:'yellow', width:'fit-content', textAlign:'center',alignItems:'center',padding:'40px auto'}}>The count is : {count}</h1>
         <div style={style.btn}>
       <button onClick={Increment} style={{backgroundColor:'green',color:'white'}}>Increment</button>
       <button onClick={Decrement} style={{backgroundColor:'red',color:'white'}}>Decrement</button>
@@ -35,6 +35,7 @@ const style={
         border:'3px solid black',
         borderRadius:'5px ',
         boxShadow:'1px 1px 1px 1px gold',
+        margin:'30px auto'
 
     },
     btn:{
