@@ -95,12 +95,14 @@
 import React from 'react'
 import UseEffect from './Module8/UseEffect'
 import UseEffect1 from './Module8/UseEffect1'
+import TryExpect from './Module8/TryExpect'
 
 function App() {
   return (
     <div>
       <UseEffect/>
       <UseEffect1/>
+      <TryExpect/>
     </div>
   )
 }
