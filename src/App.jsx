@@ -92,17 +92,115 @@
 
 // export default App;
 
+// import React from 'react'
+// import UseEffect from './Module8/UseEffect'
+// import UseEffect1 from './Module8/UseEffect1'
+// import TryExpect from './Module8/TryExpect'
+
+// function App() {
+//   return (
+//     <div>
+//       <UseEffect/>
+//       <UseEffect1/>
+//       <TryExpect/>
+//     </div>
+//   )
+// }
+
+// export default App
 import React from 'react'
-import UseEffect from './Module8/UseEffect'
-import UseEffect1 from './Module8/UseEffect1'
-import TryExpect from './Module8/TryExpect'
+import Example1 from './Module8/Example1'
+import Clock from './Module8/Clock';
+import StopWatch from './Module8/StopWatch';
+const products = [
+  {
+    id: 1,
+    name: "Wireless Headphones",
+    description: "Premium noise-cancelling Bluetooth headphones.",
+    price: 2999,
+    count: 10,
+    image: "https://picsum.photos/id/180/300/300"
+  },
+  {
+    id: 2,
+    name: "Smart Watch",
+    description: "Fitness tracking smartwatch with heart rate monitor.",
+    price: 4999,
+    count: 15,
+    image: "https://picsum.photos/id/201/300/300"
+  },
+  {
+    id: 3,
+    name: "Gaming Mouse",
+    description: "RGB gaming mouse with adjustable DPI settings.",
+    price: 1499,
+    count: 20,
+    image: "https://picsum.photos/id/1060/300/300"
+  },
+  {
+    id: 4,
+    name: "Mechanical Keyboard",
+    description: "Compact mechanical keyboard with blue switches.",
+    price: 3499,
+    count: 12,
+    image: "https://picsum.photos/id/1/300/300"
+  },
+  {
+    id: 5,
+    name: "Laptop Stand",
+    description: "Adjustable aluminum laptop stand for better posture.",
+    price: 899,
+    count: 30,
+    image: "https://picsum.photos/id/20/300/300"
+  },
+  {
+    id: 6,
+    name: "USB-C Hub",
+    description: "7-in-1 USB-C hub with HDMI and USB ports.",
+    price: 1999,
+    count: 18,
+    image: "https://picsum.photos/id/48/300/300"
+  },
+  {
+    id: 7,
+    name: "Bluetooth Speaker",
+    description: "Portable speaker with deep bass and long battery life.",
+    price: 2499,
+    count: 25,
+    image: "https://picsum.photos/id/1080/300/300"
+  },
+  {
+    id: 8,
+    name: "Webcam",
+    description: "Full HD webcam for online meetings and streaming.",
+    price: 1799,
+    count: 14,
+    image: "https://picsum.photos/id/250/300/300"
+  },
+  {
+    id: 9,
+    name: "External SSD",
+    description: "Fast portable SSD with 1TB storage capacity.",
+    price: 6999,
+    count: 8,
+    image: "https://picsum.photos/id/96/300/300"
+  },
+  {
+    id: 10,
+    name: "Monitor",
+    description: "24-inch Full HD IPS monitor with slim bezels.",
+    price: 10999,
+    count: 6,
+    image: "https://picsum.photos/id/119/300/300"
+  }
+];
 
 function App() {
   return (
     <div>
-      <UseEffect/>
-      <UseEffect1/>
-      <TryExpect/>
+      <Example1 product={products}/>
+      <Clock/>
+      <StopWatch/>
     </div>
   )
 }
