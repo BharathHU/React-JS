@@ -48,6 +48,7 @@ function Example1({ product }) {
                 <button onClick={() => addCart(item.id)}>
                   Add to Cart
                 </button>
+                 <button onClick={()=> removeCard.id}>Remove</button>
               </td>
             </tr>
           ))}

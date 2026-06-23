@@ -112,6 +112,7 @@ import React from 'react'
 import Example1 from './Module8/Example1'
 import Clock from './Module8/Clock';
 import StopWatch from './Module8/StopWatch';
+import Calculator from './Module8/Calculator';
 const products = [
   {
     id: 1,
@@ -201,6 +202,7 @@ function App() {
       <Example1 product={products}/>
       <Clock/>
       <StopWatch/>
+      <Calculator/>
     </div>
   )
 }
