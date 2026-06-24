@@ -1,0 +1,95 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: pink;
+            border: 2px black;
+        }
+        .box1{
+            height: 200px;
+            width: 200px;
+            background-color: pink;
+            border: 2px black;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="box">
+        box1
+    </h1>
+    <h1 class="box1">
+        box2
+    </h1>
+    <script>
+        let box1=document.getElementsByClassName('box')[0];
+        box1.addEventListener('mouseover',function(){
+            box1.style.backgroundColor='green';
+        });
+        box1.addEventListener('mouseout',function (){
+            box1.style.backgroundColor='yellow';
+        });
+        let box2=document.getElementsByClassName('box1')[0];
+        box2.addEventListener('mouseover',function (){
+            box2.style.backgroundColor='blue';
+            box2=document.getElementsByClassName('box1')[0];
+            box2.addEventListener('mouseout',function(){
+             box2.style.backgroundColor='brown';
+            })
+            
+        });
+    </script>
+
+    <div>
+        <input type="email" placeholder="Enter your email " required id="email"> <br>
+        <input type="password" placeholder="Enter password"> <br>
+        <button class="btn">Submit</button>
+   
+    <script>
+        let e=document.getElementById('email')
+        e.addEventListener('focus',function (){
+            e.style.backgroundColor='yellow'
+        })
+       let btn1=document.getElementsByClassName('btn')[0];
+       btn1.addEventListener('mouseover',function(){
+        btn1.style.backgroundColor='blue'
+        alert("Good Morning")
+       })
+    </script>
+     </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+           height:200px;
+           width:200px;
+           background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <script>
+        let btn1=document.getElementsByClassName('box')[0];
+        btn1.addEventListener('mouseover',function (){
+            btn1.style.backgroundColor='red';
+        })
+        btn1.addEventListener('mouseout',function(){
+            btn1.style.backgroundColor='yellow';
+            btn1.style.borderRadius='50%'
+        })
+    </script>
+</body>
+</html>
