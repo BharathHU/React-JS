@@ -214,6 +214,8 @@ import Events from './Module8/Events'
 import User from './Module8/Module8.1/User'
 import Example from './Module8/Module8.1/Example'
 import Example1 from './Module8/Module8.1/Example1'
+import CommonUsecase from './Module8/Module8.1/CommonUsecase'
+import StopWatch from './Module8/Module8.1/StopWatch'
 
 function App() {
   return (
@@ -222,6 +224,8 @@ function App() {
       {/* <User/> */}
       <Example/>
       <Example1/>
+      <CommonUsecase/>
+      <StopWatch/>
     </div>
   )
 }
