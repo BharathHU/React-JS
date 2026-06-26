@@ -216,6 +216,7 @@ import Example from './Module8/Module8.1/Example'
 import Example1 from './Module8/Module8.1/Example1'
 import CommonUsecase from './Module8/Module8.1/CommonUsecase'
 import StopWatch from './Module8/Module8.1/StopWatch'
+import Example4 from './Module8/Module8.1/Example4'
 
 function App() {
   return (
@@ -226,6 +227,7 @@ function App() {
       <Example1/>
       <CommonUsecase/>
       <StopWatch/>
+      <Example4/>
     </div>
   )
 }
