@@ -209,27 +209,50 @@
 
 // export default App
 
+// import React from 'react'
+// import Events from './Module8/Events'
+// import User from './Module8/Module8.1/User'
+// import Example from './Module8/Module8.1/Example'
+// import Example1 from './Module8/Module8.1/Example1'
+// import CommonUsecase from './Module8/Module8.1/CommonUsecase'
+// import StopWatch from './Module8/Module8.1/StopWatch'
+// import Example4 from './Module8/Module8.1/Example4'
+
+// function App() {
+//   return (
+//     <div>
+//       {/* <Events/> */}
+//       {/* <User/> */}
+//       <Example/>
+//       <Example1/>
+//       <CommonUsecase/>
+//       <StopWatch/>
+//       <Example4/>
+//     </div>
+//   )
+// }
+
+
+// export default App
+// import Component1 from "./Module8/Module8.1/ContextComponent/Component1";
+
+// function App() {
+//   return <Component1 />;
+
+// }
+
+// export default App;
+
 import React from 'react'
-import Events from './Module8/Events'
-import User from './Module8/Module8.1/User'
-import Example from './Module8/Module8.1/Example'
-import Example1 from './Module8/Module8.1/Example1'
-import CommonUsecase from './Module8/Module8.1/CommonUsecase'
-import StopWatch from './Module8/Module8.1/StopWatch'
-import Example4 from './Module8/Module8.1/Example4'
+import Dark from './Module8/Module8.1/ContextComponent/Dark'
 
 function App() {
   return (
     <div>
-      {/* <Events/> */}
-      {/* <User/> */}
-      <Example/>
-      <Example1/>
-      <CommonUsecase/>
-      <StopWatch/>
-      <Example4/>
+      <Dark/>
     </div>
   )
 }
 
 export default App
+
