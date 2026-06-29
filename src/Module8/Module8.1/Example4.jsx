@@ -72,16 +72,16 @@ function Example4() {
   };
 
   const themeStyles = {
-    backgroundColor: darkMode ? "#121212" : "#f4f4f4",
-    color: darkMode ? "#ffffff" : "#333333",
+    backgroundColor: darkMode ? "black" : "white",
+    color: darkMode ? "white" : "black",
     minHeight: "100vh",
     padding: "2rem",
     transition: "all 0.3s ease-in-out",
   };
 
   const cardStyles = {
-    backgroundColor: darkMode ? "#1e1e1e" : "#ffffff",
-    color: darkMode ? "#f0f0f0" : "#222222",
+    backgroundColor: darkMode ? "black" : "white",
+    color: darkMode ? "white" : "black",
     borderRadius: "12px",
     padding: "20px",
     maxWidth: "350px",
