@@ -245,11 +245,16 @@
 
 import React from 'react'
 import Dark from './Module8/Module8.1/ContextComponent/Dark'
+import Cards from './Module9/ProductList.jsx/Cards'
+import Navbar from './Module9/ProductList.jsx/Navbar'
 
 function App() {
   return (
     <div>
-      <Dark/>
+      {/* <Dark/> */}
+      
+      <Navbar/>
+      <Cards/>
     </div>
   )
 }
