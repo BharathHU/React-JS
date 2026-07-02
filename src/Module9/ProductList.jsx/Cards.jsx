@@ -1,6 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function Cards() {
+  const[product,setProduct]=useState([]);
+  useEffect(()=>{
+    async function fetchData(){
+      try{
+        
+      }
+
+    }
+
+  },[])
+
   return (
     <div 
     style={{
