@@ -19,7 +19,7 @@ function Cards() {
         gap: '20px',
         width: '250px',
         height: '250px',
-        boxShadow: '0px 0px 10px black',
+        boxShadow: '0px 0px 10px blue',
         margin: '20px ',
 
     }}>
