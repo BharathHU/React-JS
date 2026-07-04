@@ -243,21 +243,36 @@
 
 // export default App;
 
+// import React from 'react'
+// import Dark from './Module8/Module8.1/ContextComponent/Dark'
+// import Cards from './Module9/ProductList.jsx/Cards'
+// import Navbar from './Module9/ProductList.jsx/Navbar'
+
+// function App() {
+//   return (
+//     <div>
+//       {/* <Dark/> */}
+      
+//       <Navbar/>
+//       <Cards/>
+//     </div>
+//   )
+// }
+
+// export default App
 import React from 'react'
-import Dark from './Module8/Module8.1/ContextComponent/Dark'
-import Cards from './Module9/ProductList.jsx/Cards'
-import Navbar from './Module9/ProductList.jsx/Navbar'
+import Cart from './Module9/Module9.6/Cart'
+import Counter from './Module9/Module9.6/Counter'
 
 function App() {
+
   return (
-    <div>
-      {/* <Dark/> */}
-      
-      <Navbar/>
-      <Cards/>
+    <div >
+<Counter/>
+<Cart/>
+
     </div>
   )
 }
 
 export default App
-
