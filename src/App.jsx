@@ -276,18 +276,32 @@
 // }
 
 // export default App
+// import React from 'react'
+// import User from './Module9/Module9.7/User'
+// import Product from './Module9/Module9.7/Product'
+
+// function App() {
+
+//   return (
+//     <div >
+// <User/>
+// <Product/>
+//     </div>
+//   )
+// }
+
+// export default App
 import React from 'react'
-import User from './Module9/Module9.7/User'
-import Product from './Module9/Module9.7/Product'
+import ToggleButtonExample from './Module9/Module9.8/ToggleButtonExample';
+import Navbar from "./Module9/Module9.8/Navbar";  // <-- your file
 
 function App() {
-
   return (
-    <div >
-<User/>
-<Product/>
-    </div>
-  )
+    <>
+      <Navbar />
+      <ToggleButtonExample />
+    </>
+  );
 }
 
-export default App
+export default App;
