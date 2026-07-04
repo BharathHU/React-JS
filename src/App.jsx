@@ -260,17 +260,32 @@
 // }
 
 // export default App
+// import React from 'react'
+// import Cart from './Module9/Module9.6/Cart'
+// import Counter from './Module9/Module9.6/Counter'
+
+// function App() {
+
+//   return (
+//     <div >
+// <Counter/>
+// <Cart/>
+
+//     </div>
+//   )
+// }
+
+// export default App
 import React from 'react'
-import Cart from './Module9/Module9.6/Cart'
-import Counter from './Module9/Module9.6/Counter'
+import User from './Module9/Module9.7/User'
+import Product from './Module9/Module9.7/Product'
 
 function App() {
 
   return (
     <div >
-<Counter/>
-<Cart/>
-
+<User/>
+<Product/>
     </div>
   )
 }
