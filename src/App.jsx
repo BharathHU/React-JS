@@ -307,15 +307,29 @@
 // }
 
 // export default App;
+// import React from 'react'
+// import Example1 from './Module10.2/Example1'
+// import LoginForm from './Module10.2/LoginForm'
+// import Parent from './Lifting/Parent'
+
+// function App() {
+//   return (
+//     <div>
+//       <Example1/>
+//       <LoginForm/>
+//       <Parent/>
+//     </div>
+//   )
+// }
+
+// export default App
 import React from 'react'
-import Example1 from './Module10.2/Example1'
-import LoginForm from './Module10.2/LoginForm'
+import Parent from './Lifting/Parent'
 
 function App() {
   return (
     <div>
-      <Example1/>
-      <LoginForm/>
+      <Parent/>
     </div>
   )
 }
