@@ -291,17 +291,34 @@
 // }
 
 // export default App
+// import React from 'react'
+// import ToggleButtonExample from './Module9/Module9.8/ToggleButtonExample';
+// import Navbar from "./Module9/Module9.8/Navbar";  // <-- your file
+// import ProductFilter from './Module9/Module9.9/ProductFilter';
+
+// function App() {
+//   return (
+//     <>
+//       <Navbar />
+//       <ToggleButtonExample />
+//       <ProductFilter/>
+//     </>
+//   );
+// }
+
+// export default App;
 import React from 'react'
-import ToggleButtonExample from './Module9/Module9.8/ToggleButtonExample';
-import Navbar from "./Module9/Module9.8/Navbar";  // <-- your file
+import Example1 from './Module10.2/Example1'
+import LoginForm from './Module10.2/LoginForm'
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <ToggleButtonExample />
-    </>
-  );
+    <div>
+      <Example1/>
+      <LoginForm/>
+    </div>
+  )
 }
 
-export default App;
+export default App
+
