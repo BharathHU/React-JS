@@ -7,7 +7,8 @@ function LoadedComponent() {
   useEffect(() => {
     const item = [];
 
-    for (let i = 0; i < 10000; i++) {
+    for (let i = 0; i < 100
+        ; i++) {
       item.push("Hello, How are you? Welcome to React JS Class.");
     }
 

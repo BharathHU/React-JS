@@ -335,34 +335,102 @@
 // }
 
 // export default App
-import React, { lazy, Suspense } from "react";
-import LiteComponent from "./React Performence Optimization/LiteComponent";
-import "./App.css";
+// import React, { lazy, Suspense } from "react";
+// import LiteComponent from "./React Performence Optimization/LiteComponent";
+// import "./App.css";
 
-const LoadedComponent = lazy(() =>
-  import("./React Performence Optimization/LoadedComponent")
-);
+// const LoadedComponent = lazy(() =>
+//   import("./React Performence Optimization/LoadedComponent")
+// );
 
-function App() {
+// function App() {
+//   return (
+//     <div className="app">
+//       <LiteComponent />
+
+//       <Suspense
+//         fallback={
+//           <div className="loader">
+//             <img
+//               src="https://assets-v2.lottiefiles.com/a/d5392796-1169-11ee-908e-b33ed8d96ca4/kW0SJwvz27.gif"
+//               alt="Loading"
+//             />
+//             <h2>Loading Component...</h2>
+//           </div>
+//         }
+//       >
+//         <LoadedComponent />
+//       </Suspense>
+//     </div>
+//   );
+// }
+
+// export default App;
+import React, { lazy, Suspense } from 'react'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Navbar from './React Performence Optimization/CodeSpliting/Navbar'
+
+let Home=lazy(()=>import('./React Performence Optimization/CodeSpliting/Home'))
+let About=lazy(()=>import('./React Performence Optimization/CodeSpliting/About'))
+let Profile=lazy(()=>import('./React Performence Optimization/CodeSpliting/Profile'))
+let Signup=lazy(()=>import('./React Performence Optimization/CodeSpliting/Signup'))
+let Login=lazy(()=>import('./React Performence Optimization/CodeSpliting/Login'))
+
+function Loader() {
   return (
-    <div className="app">
-      <LiteComponent />
-
-      <Suspense
-        fallback={
-          <div className="loader">
-            <img
-              src="https://assets-v2.lottiefiles.com/a/d5392796-1169-11ee-908e-b33ed8d96ca4/kW0SJwvz27.gif"
-              alt="Loading"
-            />
-            <h2>Loading Component...</h2>
-          </div>
-        }
-      >
-        <LoadedComponent />
-      </Suspense>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "80vh",
+        flexDirection: "column",
+      }}
+    >
+      <div
+        style={{
+          width: "60px",
+          height: "60px",
+          border: "6px solid lightgray",
+          borderTop: "6px solid blue",
+          borderRadius: "50%",
+          animation: "spin 1s linear infinite",
+        }}
+      />
+      <h2>Loading...</h2>
+      <style>
+       {`
+          @keyframes spin {
+            from{
+              transform:rotate(0deg);
+            }
+            to{
+              transform:rotate(360deg);
+            }
+          }
+        `}
+      </style>
     </div>
   );
 }
 
-export default App;
+function App() {
+  return (
+    <div>
+      <BrowserRouter>
+        <Navbar/>
+        <Suspense fallback={<Loader/>}>
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path='/about' element={<About/>}/>
+            <Route path="/profile" element={<Profile/>}/>
+            <Route path='/login' element={<Login/>}/>
+            <Route path='/signup' element={<Signup/>}/>
+          </Routes>
+        </Suspense>
+      </BrowserRouter>
+    </div>
+  )
+}
+
+export default App 
