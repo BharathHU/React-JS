@@ -1,0 +1,61 @@
+.container {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.container h1 {
+  text-align: center;
+  color: #0d6efd;
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 600px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.card {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background: white;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateX(10px);
+  background: #f3f8ff;
+}
+
+.card span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0d6efd;
+  min-width: 40px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #444;
+}
+
+.list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background: #0d6efd;
+  border-radius: 10px;
+}
+
+.list::-webkit-scrollbar-track {
+  background: #ddd;
+}

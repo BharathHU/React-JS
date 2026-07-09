@@ -323,16 +323,46 @@
 // }
 
 // export default App
-import React from 'react'
-import Parent from './Lifting/Parent'
+// import React from 'react'
+// import Parent from './Lifting/Parent'
+
+// function App() {
+//   return (
+//     <div>
+//       <Parent/>
+//     </div>
+//   )
+// }
+
+// export default App
+import React, { lazy, Suspense } from "react";
+import LiteComponent from "./React Performence Optimization/LiteComponent";
+import "./App.css";
+
+const LoadedComponent = lazy(() =>
+  import("./React Performence Optimization/LoadedComponent")
+);
 
 function App() {
   return (
-    <div>
-      <Parent/>
+    <div className="app">
+      <LiteComponent />
+
+      <Suspense
+        fallback={
+          <div className="loader">
+            <img
+              src="https://assets-v2.lottiefiles.com/a/d5392796-1169-11ee-908e-b33ed8d96ca4/kW0SJwvz27.gif"
+              alt="Loading"
+            />
+            <h2>Loading Component...</h2>
+          </div>
+        }
+      >
+        <LoadedComponent />
+      </Suspense>
     </div>
-  )
+  );
 }
 
-export default App
-
+export default App;
